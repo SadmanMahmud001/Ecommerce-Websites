@@ -1,0 +1,28 @@
+<script> 
+    var userData = {};
+
+    userData.firstName = document.querySelector('input[name="first-name"]').value || '';
+    userData.lastName = document.querySelector('input[name="last-name"]').value || '';
+    userData.phone = document.querySelector('input[name="phone"]').value || '';
+    userData.email = document.querySelector('input[name="email"]').value || '';
+    userData.address = document.querySelector('input[name="address"]').value || '';
+    userData.zipCode = document.querySelector('input[name="zip-code"]').value || '';
+
+    userData.country = document.querySelector('#market-selector--country').value || '';
+
+    var stateElement = document.querySelector('input[name="state"]');
+    var cityElement = document.querySelector('input[name="city"]');
+    userData.state = stateElement ? stateElement.value : (cityElement ? cityElement.value : '');
+
+    userData.city = cityElement ? cityElement.value : '';
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'userDataCaptured',
+        'userData': userData
+    });
+
+    localStorage.setItem("userData", JSON.stringify(userData))
+
+    console.log('User Data:', userData);
+</script>
