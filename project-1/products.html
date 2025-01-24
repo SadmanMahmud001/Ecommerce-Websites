@@ -1,318 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/whiteColorTitle.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/SM.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taofiq</title>
     <style>
-        .header{
-            padding: 0 20px;
-        }
+      .header {
+        padding: 0 20px;
+      }
     </style>
-</head>
-<body>
-
-<!--? Header -->
+  </head>
+  <body>
+    <!--? Header -->
 
     <div class="container header">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html">
-                <img src="/project img/logo.png" title="Home" alt="logo" loading="lazy">
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">products</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="">contact</a></li>
-                    <li><a href="">account</a></li>
-                </ul>
-                <div class="BM">
-                    <img src="/project img/bag.png" loading="eager">
-                    
-                    <img src="/project img/menu.png" loading="eager" onclick="toggleMenu()" id="menuIcon">
-                </div>
-            </nav>
-            <div class="menuText" id="menuItems">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">products</a></li>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="">contact</a></li>
-                    <li><a href="">account</a></li>
-                </ul>
-            </div>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="/logo.png" title="Home" alt="logo" loading="lazy" />
+          </a>
         </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">account</a></li>
+          </ul>
+          <div class="BM">
+            <img src="/bag.png" loading="eager" />
+
+            <img
+              src="/menu.png"
+              loading="eager"
+              onclick="toggleMenu()"
+              id="menuIcon"
+            />
+          </div>
+        </nav>
+        <div class="menuText" id="menuItems">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">products</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">account</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
+    <!-- !featured Products -->
 
-
-<!-- !featured Products -->
-
-<div class="container">
-<div class="selectDiv">
-    <h2>All Products</h2>
-    <select>
-        <option>Default Shorting</option>
-        <option>Short by Price</option>
-        <option>Short by Popolarity</option>
-        <option>Short by rating</option>
-        <option>Short by sale</option>
-    </select>
-</div>
-</div>
-
-<div class="featured">
     <div class="container">
-        <div class="row">
+      <div class="selectDiv">
+        <h2>All Products</h2>
+        <select>
+          <option>Default Shorting</option>
+          <option>Short by Price</option>
+          <option>Short by Popolarity</option>
+          <option>Short by rating</option>
+          <option>Short by sale</option>
+        </select>
+      </div>
+    </div>
 
-            <div class="col-4">
-                <img src="/project img/product-1.jpg">
-                <h4>
-                    Red Printed T-Shert
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$50.00</p>
+    <div class="featured">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="/product-1.jpg" />
+            <h4>Red Printed T-Shert</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/product-2.jpg">
-                <h4>
-                    New Blacky Shoe
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$40.00</p>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/product-2.jpg" />
+            <h4>New Blacky Shoe</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/product-3.jpg">
-                <h4>
-                    Kuchi Lower Track Pants
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$43.00</p>
+            <p>$40.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/product-3.jpg" />
+            <h4>Kuchi Lower Track Pants</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/product-4.jpg">
-                <h4>
-                    Blue Printed T-Shert
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$50.00</p>
+            <p>$43.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/product-4.jpg" />
+            <h4>Blue Printed T-Shert</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
             </div>
+            <p>$50.00</p>
+          </div>
         </div>
         <div class="row Latest">
-
-            <div class="col-4">
-                <img src="/project img/Latest-1.jpg">
-                <h4>
-                    Nike Men's gray shoe
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$51.00</p>
+          <div class="col-4">
+            <img src="/Latest-1.jpg" />
+            <h4>Nike Men's gray shoe</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-2.jpg">
-                <h4>
-                    Puma Black Printed T-Shert
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$35.00</p>
+            <p>$51.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-2.jpg" />
+            <h4>Puma Black Printed T-Shert</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-3.jpg">
-                <h4>
-                    Mulicolumor Mousey Socks
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>$10.00</p>
+            <p>$35.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-3.jpg" />
+            <h4>Mulicolumor Mousey Socks</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-4.jpg">
-                <h4>
-                    Fossil Watch
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$60.00</p>
+            <p>$10.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-4.jpg" />
+            <h4>Fossil Watch</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-5.jpg">
-                <h4>
-                    Roadster
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$80.00</p>
+            <p>$60.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-5.jpg" />
+            <h4>Roadster</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-6.jpg">
-                <h4>
-                    MEGPAR men's Shoe
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$45.00</p>
+            <p>$80.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-6.jpg" />
+            <h4>MEGPAR men's Shoe</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-7.jpg">
-                <h4>
-                    Grey MEGPAR men's Shoe
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$40.00</p>
+            <p>$45.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-7.jpg" />
+            <h4>Grey MEGPAR men's Shoe</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
             </div>
-            <div class="col-4">
-                <img src="/project img/Latest-8.jpg">
-                <h4>
-                    Black Lower
-                </h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>$50.00</p>
+            <p>$40.00</p>
+          </div>
+          <div class="col-4">
+            <img src="/Latest-8.jpg" />
+            <h4>Black Lower</h4>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+              <i class="fa fa-star-o"></i>
             </div>
+            <p>$50.00</p>
+          </div>
         </div>
 
         <div class="nextPage">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>&#8594;</span>
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>&#8594;</span>
         </div>
-
+      </div>
     </div>
-</div>
 
-<!-- !footer -->
-<footer>
-    <div class="container">
+    <!-- !footer -->
+    <footer>
+      <div class="container">
         <div class="row">
-            <div class="col-2">
-                <h2>Download Our App
-                </h2>
-                <p>Download App for Android and ios mobile phone.
-                </p>
-                <div class="appStore">
-                    <img src="/project img/app-store.png" loading="eager">
-                    <img src="/project img/play-store.png" loading="eager">
-                </div>
+          <div class="col-2">
+            <h2>Download Our App</h2>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="appStore">
+              <img src="/app-store.png" loading="eager" />
+              <img src="/play-store.png" loading="eager" />
             </div>
-            <div class="col-2">
-                <img src="/project img/logo.png" class="footerLogo" loading="eager">
-                <p>
-                    Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to thhe Many. 
-                </p>
+          </div>
+          <div class="col-2">
+            <img src="/logo.png" class="footerLogo" loading="eager" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleasure and Benefits of
+              Sports Accessible to thhe Many.
+            </p>
+          </div>
+          <div class="col-2 linkCol">
+            <h2>Useful Links</h2>
+
+            <a href="">Coupons</a>
+            <a href="">Blog Post</a>
+            <a href="">Return Policy</a>
+            <a href="">Join Affiliate</a>
+          </div>
+          <div class="col-2">
+            <h3>Follow us</h3>
+            <div class="link">
+              <a
+                href="https://www.facebook.com/sadmanmahmudtaofiq"
+                target="_blank"
+              >
+                <i class="fa fa-facebook facebook"></i>
+              </a>
+
+              <a href="https://x.com/sadmanxmahmud" target="_blank">
+                <i class="fa fa-twitter twitter"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/sadmanmahmudtaofiq"
+                target="_blank"
+              >
+                <i class="fa fa-instagram instagram"></i>
+              </a>
+
+              <a
+                href="https://www.youtube.com/@sadmanmahmudtaofiq"
+                target="_blank"
+              >
+                <i class="fa fa-youtube youtube"></i>
+              </a>
             </div>
-            <div class="col-2 linkCol">
-                <h2>Useful Links</h2>
-
-                    <a href="">Coupons</a>
-                    <a href="">Blog Post</a>
-                    <a href="">Return Policy</a>
-                    <a href="">Join Affiliate</a>
-
-            </div>
-            <div class="col-2">
-                <h3>Follow us</h3>
-                <div class="link">
-                    <a href="https://facebook.com" target="_blank">
-                        <i class="fa fa-facebook facebook"></i>
-                    </a>
-
-                    <a href="https://x.com" target="_blank">
-                        <i class="fa fa-twitter twitter"></i>
-                    </a>
-
-                    <a href="https://instagram.com" target="_blank">
-                        <i class="fa fa-instagram instagram"></i>
-                    </a>
-
-                    <a href="https:youtube.com" target="_blank">
-                        <i class="fa fa-youtube youtube"></i>
-                    </a>
-
-                </div>
-            </div>
+          </div>
         </div>
-        <hr>
-        <p class="Copyright">💐Copyright 2024 - <span><a href="https://x.com" target="_blank">Sadman Mhamud</a></span> 💐</p>
-    </div>
-</footer>
-    
+        <hr />
+        <p class="Copyright">
+          💐Copyright 2024 -
+          <span><a href="https://x.com" target="_blank">Sadman Mhamud</a></span>
+          💐
+        </p>
+      </div>
+    </footer>
 
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
